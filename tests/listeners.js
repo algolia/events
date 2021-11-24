@@ -21,7 +21,7 @@
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 var assert = require('assert');
-var EventEmitter = require('../').default;
+var EventEmitter = require('../');
 
 function listener() {}
 function listener2() {}

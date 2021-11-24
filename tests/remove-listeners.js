@@ -21,7 +21,7 @@
 
 var common = require('./_common');
 var assert = require('assert');
-var EventEmitter = require('../').default;
+var EventEmitter = require('../');
 
 var listener1 = function listener1() {};
 var listener2 = function listener2() {};
