@@ -1,3 +1,7 @@
+# 4.0.1 (2021-11-24)
+
+  - undo fake default export
+
 # 4.0.0 (2021-11-24)
 
   - add type definitions
