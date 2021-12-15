@@ -34,3 +34,4 @@ require('./set-max-listeners-side-effects.js');
 require('./subclass.js');
 require('./remove-all-listeners.js');
 require('./remove-listeners.js');
+require('./errors');

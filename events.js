@@ -57,6 +57,8 @@ EventEmitter.prototype.emit = function(type) {
       er = arguments[1];
       if (er instanceof Error) {
         throw er; // Unhandled 'error' event
+      } else if (er.error instanceof Error) {
+        throw er.error; // Unhandled 'error' event
       } else {
         // At least give some kind of context to the user
         var err = new Error('Uncaught, unspecified "error" event. (' + er + ')');
